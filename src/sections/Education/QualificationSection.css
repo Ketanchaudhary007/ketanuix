@@ -1,0 +1,59 @@
+/* QualificationSection.css */
+.qualification__section {
+  display: flex;
+  flex-direction: column;
+  text-align: center; /* Center-align section title and all content */
+}
+
+.section__title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: var(--text-color); /* Ensure the section title changes color with the theme */
+}
+
+.qualification__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* Space between qualifications */
+}
+
+.qualification__data {
+  border: 1px solid var(--text-color); /* Border color */
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%; /* Adjust as needed */
+  max-width: 600px; /* Limit max width for readability */
+  color: var(--text-color); /* Text color for the qualification data */
+}
+
+.qualification__title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--text-color); /* Title color */
+}
+
+.qualification__subtitle {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--text-color); /* Subtitle color */
+}
+
+.qualification__details {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column; /* Stack the details vertically */
+  align-items: center; /* Center-align details */
+  margin-bottom: 10px; /* Space below details */
+}
+
+.qualification__cgpa,
+.qualification__percentage {
+  margin: 5px 0; /* Vertical margin for spacing */
+  color: var(--text-color); /* Ensure it matches the theme */
+  text-align: center; /* Center text */
+}

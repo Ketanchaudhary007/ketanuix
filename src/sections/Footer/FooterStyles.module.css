@@ -1,0 +1,91 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--footer-bg-color); /* Optional for better visibility */
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact h3 {
+  font-size: 28px;
+  color: var(--footer-text-color);
+  margin-bottom: 15px;
+}
+
+/* For larger screens */
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allow wrapping if content overflows */
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  width: 220px;
+  transition: transform 0.2s;
+  text-decoration: none;
+  color: var(--footer-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 10px; /* Space between rows on small screens */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 24px;
+  color: var(--btn-color);
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.footerText {
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .contact h3 {
+    font-size: 24px;
+  }
+  .card {
+    width: 180px; /* Slightly smaller width for tablets */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .contact h3 {
+    font-size: 20px;
+  }
+  .contactInfo {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center;
+  }
+  .card {
+    width: 90%; /* Take most of the width */
+    max-width: 300px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .footerText {
+    font-size: 12px; /* Smaller footer text */
+  }
+}

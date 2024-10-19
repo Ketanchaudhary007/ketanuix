@@ -1,0 +1,50 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s ease;
+  }
+  
+  .card:hover .image {
+    filter: blur(1px);
+  }
+  
+  .buttonsContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card:hover .buttonsContainer {
+    opacity: 1;
+  }
+  
+  .button {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #b9b9b9;
+    transform: scale(1.05);
+  }
+  
+  .card:hover {
+    transform: scale(1.07);
+  }
+  
