@@ -26,7 +26,7 @@ function Projects() {
         />
         <ProjectCard
           src={hipsster}
-          link="https://medium.com/design-work"
+          link="https://dribbble.com/kchaudhry007"
           h3="DESIGN WORK"
           p="Web & App Design"
           buttonLabel="Dribble"

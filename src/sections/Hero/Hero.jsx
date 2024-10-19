@@ -64,10 +64,10 @@ function Hero() {
             <img src={linkedinIcon} alt="LinkedIn icon" />
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://dribbble.com/kchaudhry007"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Visit Ketan's Twitter profile"
+            aria-label="Visit Ketan's dribble portfolio"
           >
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
