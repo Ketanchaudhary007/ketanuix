@@ -20,7 +20,7 @@ function Projects() {
         <ProjectCard
           src={freshBurger}
           liveLink="https://calcul-ai-fe.vercel.app/"
-          githubLink="https://github.com/Ade-mir/calcul-ai"
+          githubLink="https://github.com/Ketanchaudhary007/CalculAI-FE"
           h3="CalculAI"
           p="AI-powered Calculator"
         />
