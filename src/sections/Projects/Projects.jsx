@@ -29,7 +29,7 @@ function Projects() {
           link="https://dribbble.com/kchaudhry007"
           h3="DESIGN WORK"
           p="Web & App Design"
-          buttonLabel="Dribble"
+          buttonLabel="Dribbble"
         />
         <ProjectCard
           src={fitLift}
