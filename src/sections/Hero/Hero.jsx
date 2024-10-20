@@ -67,7 +67,7 @@ function Hero() {
             href="https://dribbble.com/kchaudhry007"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Visit Ketan's dribble portfolio"
+            aria-label="Visit Ketan's dribbble portfolio"
           >
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
