@@ -8,7 +8,7 @@ function Footer() {
       <div className={styles.contact}>
         <h3>Contact Me</h3>
         <div className={styles.contactInfo}>
-          <a href="mailto:ketan@example.com" className={styles.card}>
+          <a href="mailto:ketanchaudhary130@gmail.com" className={styles.card}>
             <FaEnvelope className={styles.icon} />
             <p>ketanchaudhary130@gmail.com</p>
           </a>
